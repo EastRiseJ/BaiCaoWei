@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../static/css/content/submitOrderContent.css"/>
+	</head>
+
+	<body>
+		<div id="submitOrderContent">
+			<div class="submitOrderContentC">
+				<div class="submitOrderTopNav">
+					<img src="../../static/imgs/onTheSubmitOrders.png" />
+				</div>
+				<div class="addressManage">
+					确认收货地址<span class="btn_addrM">管理收获地址</span>
+				</div>
+				<div class="userAddressBox">
+					<div class="sendAddress">
+						<!--<div class="addressItems active">
+							<span class="selectItems active">寄送到</span>
+							<lable><input type="radio" name="address" class="rad_Address" />
+								   <span class="placeDetail">
+									<span class="subPlace">XXX</span>
+									<span class="subPlaceDetail">XXX</span>
+									(<span class="subPeople">XXX</span> 收)
+									<span class="phoneNum">12348654</span>
+									<a href="javascript:;" class="btn_optDefault isDefaultAdd" >默认地址</a>
+									<a href="javascript:;" class="btn_editAddress isDefaultAdd" >修改本地址</a>
+								</span>
+							</lable>
+							
+						</div>-->
+						
+					</div>
+					<a href="../../views/MainHtml/receiveAddress.html" class="userNewAddr">使用新地址</a>
+				</div>
+				<div class="confirmTheOrderTitle">
+					确认详细订单
+				</div>
+				<div class="confirmTheOrderContent">
+					<table id="goodsDetail" cellpadding="0" cellspacing="0">
+						<thead>
+							<tr>
+								<th class="t1">商品详细</th>
+								<th class="t2">单价</th>
+								<th class="t3">数量</th>
+								<th class="t4">金额</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!--<tr>
+								<td class="t1">
+									<div class="goodsImgBox">
+										<img src='../../static/imgs/F43Item (3).jpg'  />
+									</div>
+									<span class="goodsName">4864564564554</span>
+								</td>
+								<td class="t2">￥<span class="goodsSinglePrice">30</span>元</td>
+								<td class="t3">2</td>
+								<td class="t4">￥<span class="goodsWholePrice">60</span></td>
+							</tr>-->
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="4">
+									<div class="tfTop">
+										<div class="tfTopL">
+											给卖家留言：	<input type="text" class="LeaveMsg"  placeholder="选填：对此次交易的说明"/>
+										</div>
+										<div class="tfTopR">
+											运送方式：<label><input type="radio" checked="checked" class="sendMethod" />普通配送</label>
+											<select class="sendMethodS">
+												<option> 快递配送 ￥0.00元</option>
+												<option> EMS配送 ￥20.00元</option>
+												<option> 顺风配送 ￥20.00元</option>
+											</select>
+											<span class="CourierPrice">￥0</span><br />
+											<div class="wholePriceBox">
+												合计（含运费）：<span class="theWholePrice">￥50.8</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+				<div class="submitOrderPayForMain">
+					<div class="submitOrderPayFor">
+						<div class="methodOfPay">
+							支付方式：<label><input type="radio" name="methodOfPay" checked="checked" class="byYe"  />余额支付</label>
+							<label><input type="radio" name="methodOfPay" class="byZFB" />支付宝</label>
+							<label><input type="radio" name="methodOfPay" class="byWX" />微信</label>
+						</div>
+						<div class="payMsgs">
+								实付款： <span class="factPrice">50</span><br />
+								寄送至： <span class="sendFactAddr">XXXX</span><br />
+								收货人： <span class="recivePeople">XXXXX</span><br />
+						</div>
+						<div class="btnsOfSubmitOrder">
+							<a href="../../views/MainHtml/shopCar.html" class="backToShopCar">&lt; 返回购物车</a>
+							<div class="btn_submitOrder">提交订单并支付</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+		</div>
+		
+		
+		<script type="text/javascript" src="../../static/js/common/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="../../static/js/common/utility.js"></script>
+		<script type="text/javascript" src="../../static/js/common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../../static/js/common/json2.js"></script>
+		<script type="text/javascript" src="../../static/js/content/submitOrderContent.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../static/css/content/shopCarContent.css"/>
+	</head>
+		
+	<body>
+		<div id="shopCarContent">
+			<div class="shopCarContentC">
+				<!-- 购物车上方的导航 -->
+				<div class="shopCarNav">
+					
+				</div>
+				<!-- 购物车内的主要内容 -->
+				<div class="shopCarMainC">
+					<img src="../../static/imgs/onTheShopCar.png" />
+					<table id="tab_shopCar" cellpadding="0" cellspacing="0">
+						<thead>
+							<tr>
+								<th class="t1"><label><input type="checkbox" class="checkAll" />全选</label></th>
+								<th class="t2"><label>商品信息</label></th>
+								<th class="t3"><label>单价</label></th>
+								<th class="t4"><label>数量</label></th>
+								<th class="t5"><label>金额</label></th>
+								<th class="t6"><label>操作</label></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr style="display: none;"></tr>
+							<!--<tr>
+								<td class="t1">
+									<input type="checkbox" class="checkThis" />
+									<div class="goodsPic">
+										<img src="../../static/imgs/F43Item (1).jpg" />
+									</div>
+									
+								</td>
+								<td class="t2">dsad</td>
+								<td class="t3">14.5</td>
+								<td class="t4">
+									<button class="numSub" disabled="disabled">-</button><input type="text" value="1" class="goodsNum" /><button class="numAdd">+</button>
+									<p class="numError"></p>
+								</td>
+								<td class="t5">￥<span class="sumPrice">14.5</span>元</td>
+								<td class="t6"><a href="javascript:;" class="deleteThis">删除</a></td>
+							</tr>-->
+						</tbody>
+						<tfoot>
+							<tr>
+								<td class="t1" colspan="6">
+									<label><input type="checkbox" class="checkAll" />全选</label>
+									  <a href="javascript:;" class="clearShopCar" >清空</a>
+									<span class="wholePriceMsg">已选商品<span class="goodsNumsForPay">0</span>合计（不含运费）<span class="wholePrice">￥0元</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="t1" colspan="6">
+									<div class="continueShopping">&lt;继续购物</div>
+									<button class="goToPay">结 算 &gt;</button>
+								</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="../../static/js/common/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="../../static/js/common/utility.js"></script>
+		<script type="text/javascript" src="../../static/js/common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../../static/js/common/json2.js"></script>
+		<script type="text/javascript" src="../../static/js/content/shopCarContent.js"></script>
+	</body>
+
+</html>

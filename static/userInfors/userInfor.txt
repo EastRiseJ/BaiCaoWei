@@ -1,0 +1,6 @@
+{
+	"users":[
+		{"userName":"13706570271","userPwd":"88888888","method" : "手机号码"},
+		{"userName":"xiaoHong@163.com","userPwd":"456","method" : "邮箱"}
+	]
+}

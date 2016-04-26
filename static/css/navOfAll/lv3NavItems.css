@@ -1,0 +1,24 @@
+a{
+	text-decoration: none;
+}
+#J_menu1_con .menu1_con-ui h3{
+	margin-top:10px;
+}
+#J_menu1_con .menu1_con-ui h3 a{
+	font-size:14px;
+	color:#434a54;
+	font-weight: bold;
+}
+#J_menu1_con .menu1_con-ui p a{
+	display: inline-block;
+	padding:0 10px;
+	height: 20px;
+	text-align: center;
+	font-size:12px;
+	color:#595f68;
+	background: url(../../imgs/navShuLine.png) no-repeat right 1px;
+}
+#J_menu1_con .menu1_con-ui p a:hover{
+	text-decoration: underline;
+	color:#d4362a;
+}

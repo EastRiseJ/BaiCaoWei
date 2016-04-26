@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../static/css/content/userReceiveAddress.css" />
+	</head>
+
+	<body>
+		
+		<div id="userCenterContent">
+			<div class="userCenterContentC">
+				<!-- 个人中心左侧导航栏  -->
+				<div class="userCLeft">
+					<div class="userCLeftTop">
+						我的百草味
+					</div>
+					<div class="userCLeftBot">
+						<div class="userCItemsTitle uCT1">
+							我的账户
+						</div>
+						<div class="userCItems">账户安全</div>
+						<div class="userCItems userInfors">个人信息</div>
+						<div class="userCItems receiveAddrs">收货地址</div>
+						
+						<div class="userCItemsTitle uCT2">
+							我的交易
+						</div>
+						<div class="userCItems">我的订单</div>
+						<div class="userCItems">退货记录</div>
+						<div class="userCItems">到货通知</div>
+						<div class="userCItems">我的收藏</div>
+						
+						<div class="userCItemsTitle uCT3">
+							我的钱包
+						</div>
+						<div class="userCItems">我的余额</div>
+						<div class="userCItems">我的红包</div>
+						<div class="userCItems">我的豆子</div>
+						<div class="userCItems">我的优惠券</div>
+						
+						<div class="userCItemsTitle uCT4">
+							我的圈子
+						</div>
+						<div class="userCItems">消息中心</div>
+						<div class="userCItems">我的评论</div>
+						<div class="userCItems">我的推荐</div>
+						<div class="userCItems">我的留言</div>
+					</div>
+				</div>
+				
+				<div class="userRAddrRight">
+					<div class="userRAddrRTop">
+						收货地址
+					</div>
+					<div class="userRAddrRBot">
+						<div class="userRAddrRBotL">
+							<table class="allOfAddress" cellpadding="0" cellspacing="0">
+								<thead>
+									<tr>
+										<th class="t1">收货人</th>
+										<th class="t2">所在地区</th>
+										<th class="t3">详细地址</th>
+										<th class="t4">邮编</th>
+										<th class="t5">电话/手机</th>
+										<th class="t6">操作</th>
+										<th class="t7">是否默认</th>
+									</tr>
+								</thead>
+								<tbody>
+									<!--<tr>
+										<td class="t1">jidsh</td>
+										<td class="t2">jidsh</td>
+										<td class="t3">jidsh</td>
+										<td class="t4">jidsh</td>
+										<td class="t5">jidsh</td>
+										<td class="t6">
+											<a href="javascript:;" class="editAddress">修改</a>|
+											<a href="javascript:;" class="deletAddress" >删除</a>
+										</td>
+										<td class="t7">
+											<span class="defaultAddress">默认地址</span>
+										</td>
+										
+									</tr>-->
+								</tbody>
+							</table>
+							<a href="javascript:;" class="btn_addAddress">+ 添加收货地址</a><br/>
+							<div class="userRAddrRBotLTitle">
+								<span >收货地址</span> （最多保存5个地址）
+							</div>
+							<form name="form1" id="form1" class="form1">
+								<table class="tab_addresss">
+									<tr>
+										<td>
+											<span class="span_formL">*</span>
+											默认地址：
+										</td>
+										<td>
+											<label><input type="radio" name="isDefault" class="isDefault" checked="checked" />是</label>
+											<label><input type="radio" name="isDefault"  class="isnotDefault" />否</label>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="span_formL">*</span>
+											收货人：
+										</td>
+										<td>
+											<input type="text" class="tb_fRecivePeople" placeholder="请输入收货人姓名" />
+											<span class="address-error">*收件人不能为空</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="span_formL">*</span>
+											地区：
+										</td>
+										<td>
+											<select class="select_province">
+												<option>请选择</option>
+												<option>浙江</option>
+												<option>上海</option>
+											</select>
+											<select class="select_city">
+												<option>请选择</option>
+												<!--<option>杭州</option>
+												<option>台州</option>-->
+											</select>
+											<select class="select_area">
+												<option>请选择</option>
+												<!--<option>黄岩</option>
+												<option>临海</option>-->
+											</select>
+											<span class="address-error">*请选择正确的地区</span>
+										</td>
+									</tr>
+									
+									<tr>
+										<td>
+											<span class="span_formL">*</span>
+											详细地址：
+										</td>
+										<td>
+											<input type="text" class="tb_fAddresasDetail"   placeholder="请输入详细地址"/>
+											<span class="address-error">*详细地址不能为空</span>
+										</td>
+									</tr>
+									
+									<tr>
+										<td>
+											<span class="span_formL">*</span>
+											邮政编码：
+										</td>
+										<td>
+											<input type="text" class="tb_fPostCode"   placeholder="请输入六位数字的邮政编码"/>
+											<span class="address-error">*请输入正确的六位数字的邮政编码</span>
+										</td>
+									</tr>
+									
+									<tr>
+										<td>
+											<span class="span_formL">*</span>
+											手机：
+										</td>
+										<td>
+											<input type="text" class="tb_fPhoneNum"  placeholder="请输入手机号码" />
+											<span class="address-error">*手机号码不能为空</span>
+										</td>
+									</tr>
+									
+									<tr>
+										<td>
+											固定电话：
+										</td>
+										<td>
+											<input type="text" class="tb_fTelphone"   placeholder="请输入固定电话号码" />
+											<span class="address-error">*请输入正确的固定电话号码.例:0576-83335555</span>
+										</td>
+									</tr>
+								</table>
+								<input type="submit" class="btn_submit" value="提交" />
+								<input type="reset" class="btn_cancel" value="取消"  />
+							</form>
+						</div>
+						<div class="userRAddrRBotR">
+							<button class="btn_toShopCar">返回继续提交订单</button>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+		<script type="text/javascript" src="../../static/js/common/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="../../static/js/common/utility.js"></script>
+		<script type="text/javascript" src="../../static/js/common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../../static/js/common/json2.js"></script>
+		<script type="text/javascript" src="../../static/js/content/userReceiveAddress.js"></script>
+	</body>
+
+</html>

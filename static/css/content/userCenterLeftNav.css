@@ -1,0 +1,55 @@
+ .userCLeft{
+	width:216px;
+	height:658px;
+	font-size: 12px;
+	float: left;
+}
+ .userCLeftTop{
+	width:214px;
+	height:38px;
+	background: #d6362a;
+	border-radius: 19px;
+	line-height: 38px;
+	color:#fff;
+	text-align: center;
+	font-weight: bold;
+}
+ .userCLeftBot{
+	width:143px;
+	/*height:602px;*/
+	border: 2px solid #d6362a;
+	border-radius: 20px;
+	padding: 14px 30px 30px 39px;
+	color:#646464;
+}
+ .userCItemsTitle{
+	height:22px;
+	color:#9f4d50;
+	font-size: 16px;
+	line-height: 22px;
+	padding-left:30px;
+	font-weight: bold;
+	margin-top:20px;
+}
+ .uCT1{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 0;
+}
+ .uCT2{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 -22px;
+}
+ .uCT3{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 -44px;
+}
+ .uCT4{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 -66px;
+}
+ .userCItems{
+	line-height: 30px;
+	padding-left:30px;
+	cursor: pointer;
+	background: url(../../imgs/userCenterItemsRLogo.png) no-repeat right;
+}
+ .userCItems:hover{
+	border: 1px solid #9f4d50;
+	color:#9f4d50;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../static/css/content/registContent.css"/>
+	</head>
+
+	<body>
+		<div id="registContent">
+			<div class="registContentC">
+				<div class="registC">
+					<h3 class="rTitle">用户注册</h3>
+					<div class="rTitleRight">
+						已是百草味用户，<a href="http://127.0.0.1:8020/BaiCaoWei/views/MainHtml/userLogin.html" class="btn_goToLogin">直接登录</a>
+					</div>
+					<input type="text"  class="tb_phoneNum" placeholder="手机号码（必须填写）" />
+					<p class="regist_error">手机号码不正确</p>
+					<input type="text"  class="tb_YZM" placeholder="验证码" />
+					<span class="randomNums">4562</span> 看不清，<a href="javascript:;" class="btn_changeYZM" >换一个</a>
+					<p class="regist_error">验证码错误</p>
+					<input type="text"  class="tb_Msg" placeholder="输入短信验证码" />
+					<button class="btn_getMsg">免费获取验证码</button>
+					<p class="regist_error">手机验证码不正确</p>
+					<input type="password"  class="tb_pwd" placeholder="设置密码，8-16位" />
+					<p class="regist_error">请输入正确的密码格式</p>
+					<input type="password"  class="tb_isPwd" placeholder="确认密码" />
+					<p class="regist_error">两次密码输入不一致</p>
+					<a href="javascript:;" class="serverAgreement">用户服务协议</a>
+					<input type="submit" class="registSubmit" value="接受协议并注册" />
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../static/js/common/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="../../static/js/common/utility.js"></script>
+		<script type="text/javascript" src="../../static/js/content/registContent.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,219 @@
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color:#e43629;
+	text-decoration: underline;
+}
+#userCenterContent{
+	width:100%;
+	margin-top:10px;
+}
+#userCenterContent .userCenterContentC{
+	width:1211px;
+	height:867px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+#userCenterContent .userCenterContentC .userCLeft{
+	width:216px;
+	height:658px;
+	font-size: 12px;
+	float: left;
+}
+#userCenterContent .userCenterContentC .userCLeftTop{
+	width:214px;
+	height:38px;
+	background: #d6362a;
+	border-radius: 19px;
+	line-height: 38px;
+	color:#fff;
+	text-align: center;
+	font-weight: bold;
+}
+#userCenterContent .userCenterContentC .userCLeftBot{
+	width:143px;
+	/*height:602px;*/
+	border: 2px solid #d6362a;
+	border-radius: 20px;
+	padding: 14px 30px 30px 39px;
+	color:#646464;
+}
+#userCenterContent .userCenterContentC .userCItemsTitle{
+	height:22px;
+	color:#9f4d50;
+	font-size: 16px;
+	line-height: 22px;
+	padding-left:30px;
+	font-weight: bold;
+	margin-top:20px;
+}
+#userCenterContent .userCenterContentC .uCT1{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 0;
+}
+#userCenterContent .userCenterContentC .uCT2{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 -22px;
+}
+#userCenterContent .userCenterContentC .uCT3{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 -44px;
+}
+#userCenterContent .userCenterContentC .uCT4{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 -66px;
+}
+#userCenterContent .userCenterContentC .userCItems{
+	line-height: 30px;
+	padding-left:30px;
+	cursor: pointer;
+	background: url(../../imgs/userCenterItemsRLogo.png) no-repeat right;
+}
+#userCenterContent .userCenterContentC .userCItems:hover{
+	border: 1px solid #9f4d50;
+	color:#9f4d50;
+}
+
+#userCenterContent .userCenterContentC .userRAddrRight{
+	width:976px;
+	margin-left:10px;
+/*	background: yellow;*/
+	float:left;
+	color:#646464;
+}
+#userCenterContent .userCenterContentC .userRAddrRTop{
+	line-height: 36px;
+	font-weight: bold;
+	color:#a04d51;
+	font-size: 14px;
+}
+#userCenterContent .userCenterContentC .userRAddrRBot{
+	width:972px;
+	border:2px solid #feefec;
+	border-radius: 19px;
+	padding:25px;
+	height:630px;
+}
+#userCenterContent .userCenterContentC .userRAddrRBotL{
+	width:750px;
+	float:left;
+}
+.allOfAddress{
+	width:750px;
+}
+.allOfAddress thead tr{
+	height:40px;
+	background:#ccc;
+}
+.allOfAddress tbody tr{
+	height:40px;
+}
+.allOfAddress tbody tr td{
+	text-align: center;
+	
+}
+.allOfAddress  tr .t1{
+	width:10%;
+}
+.allOfAddress  tr .t2{
+	width:25%;
+}
+.allOfAddress  tr .t3{
+	width:25%;
+}
+.allOfAddress  tr .t4{
+	width:10%;
+}
+.allOfAddress  tr .t5{
+	width:10%;
+}
+.allOfAddress  tr .t6{
+	width:10%;
+}
+.allOfAddress  tr .t6 a{
+	color:#646464;
+}
+.allOfAddress  tr .t6 a:hover{
+	color:#e43629
+}
+.allOfAddress  tr .t7{
+	width:10%;
+}
+
+.btn_addAddress{
+	color:#646464;
+}
+#form1{
+	display: none;
+}
+#userCenterContent .userCenterContentC .userRAddrRBotLTitle{
+	margin-top:20px;
+}
+#userCenterContent .userCenterContentC .userRAddrRBotLTitle span{
+	font-size: 14px;
+	color:#d6362a;
+	border-bottom: 2px solid #d6362a;
+}
+#userCenterContent .userCenterContentC .span_formL{
+	color:#d63529;
+}
+.tb_fRecivePeople{
+	height:30px;
+	width:250px;
+}
+.tb_fAddresasDetail,.tb_fPostCode,.tb_fPhoneNum,.tb_fTelphone{
+	height:30px;
+	width:410px;
+}
+.tab_addresss tr td{
+	padding-top:20px;
+}
+#form1 input{
+	outline: none;
+}
+#form1 .address-error{
+	color:#d63529;
+	visibility: hidden;
+}
+.btn_submit{
+	width:85px;
+	height:36px;
+	background:#d63529 ;
+	outline: none;
+	border:0;
+	border-radius:18px ;
+	color: #fff;
+	margin:18px 0 0 20px;
+	cursor: pointer;
+}
+.btn_cancel{
+	width:85px;
+	height:36px;
+	background:#d63529 ;
+	outline: none;
+	border:0;
+	border-radius:18px ;
+	color: #fff;
+	margin:18px 0 0 20px;
+	cursor: pointer;
+	/*display: none;*/
+}
+.btn_submit:hover,.btn_cancel:hover,.userRAddrRBotR .btn_toShopCar:hover{
+	color: #d63529;
+	background:#fff ;
+	border: 1px #d63529 solid;
+}
+.userRAddrRBotR{
+	float: right;
+}
+.userRAddrRBotR .btn_toShopCar{
+	width:134px;
+	height:36px;
+	background:#d63529 ;
+	outline: none;
+	border:0;
+	border-radius:18px ;
+	color: #fff;
+	cursor: pointer;
+}

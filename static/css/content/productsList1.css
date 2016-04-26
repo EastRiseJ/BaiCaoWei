@@ -1,0 +1,170 @@
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color:#d6362a !important;
+}
+ul,li{
+	list-style: none;
+}
+#productsList{
+	width:100%;
+}
+#productsList .productsListC{
+	width:1211px;
+	height: 1800px;
+	margin: 0 auto;
+	line-height: 20px;
+	font-size: 12px;
+}
+.productsListC .productsListCLeft{
+	width:204px;
+	/*background: pink;*/
+	padding:25px 0;
+	border: 3px solid #d6362a;
+	border-radius: 19px;
+	float: left;
+}
+
+.productsListC .productsListCLeft .lvToNav{
+	text-align: center;
+	color:#646464;
+}
+.productsListC .productsListCLeft .lvToNav li{
+	width:204px;
+	height:26px;
+	line-height: 36px;
+	cursor: pointer;
+	background: url(../../imgs/productsListGreyJT.png) no-repeat  185px 14px ;
+}
+.productsListC .productsListCLeft .lvToNav li.lvToNavLi{
+	width:204px;
+	height:45px;
+	line-height: 45px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor:auto;
+	background: #feefec url(../../imgs/productsListRedJT.png) no-repeat  185px 14px ;
+	margin-top:20px;
+}
+.productsListC .productsListCLeft .lvToNav li.lvToNavLi:hover{
+	border: 0;
+	color:#646464;
+}
+.productsListC .productsListCLeft .lvToNav li:hover{
+	border: 1px solid #9f4d50;
+	color:#d6362a;
+}
+.productsListC  .productsListCRight{
+	width:950px;
+	padding:20px 0;
+	border:2px solid #feefec;
+	float: left;
+	border-radius: 20px;
+	margin-left:20px;
+}
+.productsListC .productsListCRight .productsListCRightTopNav{
+	/*margin-top:20px;*/
+	/*padding-right:20px ;*/
+	/*padding-left:40px ;*/
+}
+.productsListC .productsListCRight .productsListCRightTopNav a{
+	color:#646464;
+}
+.productsListC .productsListCRight .productsListCRightTopNav .navHr{
+	background:#d6362a;
+	height:2px;
+}
+.productsListCRightItems{
+	clear: both;
+	float:left;
+}
+/*.productsListC  .iC3ItemsBox{
+	width:950px;
+	height:550px;
+	background: #fff;
+	z-index:1;
+}*/
+
+.productsListC  .iC3ItemsBoxs .active{
+	z-index: 2;
+}
+.productsListC  .iC3ItemsMsg{
+	width: 190px;
+	height:250px;
+	float:left;
+	margin-top:20px;
+	margin-left:40px;
+	cursor: pointer;
+}
+.productsListC   .iC3ItemsMsg>img{
+	width: 190px;
+	height:190px;
+}
+.productsListC  .iC3ItemsMsg>img:hover{
+	box-shadow:0px 0px 10px #000;
+}
+.productsListC  .iC3ItemsMsg .iCItemsName:hover{
+	color:#d4362a;
+}
+.productsListC  .iC3ItemsMsg .iCItemsName{
+	line-height: 16px;
+}
+.productsListC  .iC3ItemsMsg .iCItemsName:hover{
+	color:#d4362a;
+}
+.productsListC  .iC3ItemsMsg .iCItemsPrice{
+	display: inline-block;
+	width:40px;
+	height:22px;
+	float: left;
+	font-weight:bold;
+	font-size: 16px;
+	color:#d4362a;
+}
+.productsListC  .iC3ItemsMsg .proListAddShopCar{
+	display: inline-block;
+	text-align: center;
+	width:67px;
+	height:22px;
+	float: left;
+	font-size: 12px;
+	margin-left:30px;
+	color:#fff;
+	background: #d4362a;
+	font-weight:bold;
+	border : 1px #ccc  solid;	
+}
+.productsListC  .iC3ItemsMsg .proListAddShopCar:hover{
+	color:#d4362a;
+	background: #fff;
+}
+.productsListC .iC3RContent{
+	width:220px;
+	height: 530px;
+	background: #fefbfd;
+	float:right;
+}
+.productsListC  .iC3RContentTop{
+	width:220px;
+	height: 253px;
+	padding-top:12px;
+}
+.productsListC .iC3RContentTopItems{
+	width:30px;
+	height:48px;
+	border-radius: 50%;
+	background: #fff;
+	font-size:13px;
+	color:#000;
+	text-align: center;
+	padding:18px 18px 0;
+	margin-left:5px;
+	float:left;
+	cursor: pointer;
+}

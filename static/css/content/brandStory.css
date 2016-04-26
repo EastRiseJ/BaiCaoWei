@@ -1,0 +1,40 @@
+*{
+	padding:0;
+	margin:0;
+}
+#brandSContent{
+	width:100%
+}
+#brandSContentC{
+	width: 1244px;
+	height:4177px;
+	margin:0 auto;
+}
+#brandSContentC .bSPic{
+	width: 1244px;
+	height:3944px;
+}
+#brandSContentC  .bSBottom{
+	width: 1244px;
+	height:96px;
+	background: #2a85d8;
+	line-height: 113px;
+	text-align: center;
+	padding-top:27px;
+}
+#brandSContentC  .bSBottom button{
+	width:198px;
+	height:59px;
+	border: 0;
+}
+#btn_toIndex{
+	background: url(../../imgs/bSReturnIndexBtn.png);
+}
+#btn_toTop{
+	margin-left:70px;
+	background: url(../../imgs/bSReturnTopBtn.png);
+}
+
+
+
+

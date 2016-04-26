@@ -1,0 +1,87 @@
+*{
+	padding:0;
+	margin:0;
+}
+#banner{
+	width:100%;
+	height:420px;
+	background: pink;
+	position: relative;
+}
+#banner #bannerContent{
+	width:1211px;
+	height:420px;
+	position:relative;
+	margin: 0 auto;
+}
+#banner #bannerContent img{
+	position: absolute;
+	top:0;
+	left:0;
+	cursor: pointer;
+}
+#banner #bannerContent button{
+	position: absolute;
+	bottom:14px;
+	background: #fff;
+	width:20px;
+	height:20px;
+	outline: none;
+	border-radius: 50%;
+	border:0;
+	z-index: 3;
+}
+/*#banner #bannerContent>img{
+	opacity: 0;
+}*/
+#banner #bannerContent .btn_pic1{
+	left:550px;
+}
+#banner #bannerContent .btn_pic2{
+	left:575px;
+
+}
+#banner #bannerContent .btn_pic3{
+	left:600px;
+}
+#banner #bannerContent>img.active{
+	z-index: 1;
+}
+#banner #bannerContent .btnactive{
+	background: #d6362a;
+}
+#banner .fixS{
+	position: absolute;
+	right:0;
+	top:150px;
+	width:35px;
+	height:110px;
+	font-size:20px;
+	font-weight: bolder;
+	text-align: center;
+	color:#d4362a;
+	border-radius: 5px;
+	background: #fce7e4;
+	z-index: 1000;
+	cursor: pointer;
+}
+#banner .bCMsg{
+	position: absolute;
+	right:0;
+	top:120px;
+	z-index: 1001;
+	display:none;
+	width:138px;
+	height:196px;
+	overflow: hidden;
+}
+#banner .bCMsg #btn_closeEWM{
+	display: block;
+	width:45px;
+	height:14px;
+	position: absolute;
+	right:19px;
+	bottom:7px;
+	/*background: blue;*/
+	z-index: 1002;
+}

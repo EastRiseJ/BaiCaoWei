@@ -1,0 +1,48 @@
+*{
+	padding:0;
+	margin:0;
+}
+#forgetPwdContent{
+	width:100%;
+}
+#forgetPwdContent .forgetPwdContentC{
+	width:600px;
+	padding:35px 0 85px 0 ;
+	margin:0 auto;
+	font-size: 12px;
+	color:#646464;
+	/*background: lightblue;*/
+}
+#forgetPwdContent .forgetPwdContentC h2{
+	line-height: 24px;
+	font-size: 12px;
+}
+#forgetPwdContent .forgetPwdContentC .fP_phoneNum{
+	width:185px;
+	height:21px;
+}
+#forgetPwdContent .forgetPwdContentC .span_input{
+	margin-left:12px;
+}
+#forgetPwdContent .forgetPwdContentC button{
+	margin-top:8px;
+	border-radius: 15px;
+	background:#d6362a;
+	color:#fff;
+	border:0;
+	cursor: pointer;
+	outline: none;
+	height:30px;
+}
+#forgetPwdContent .forgetPwdContentC button:hover{
+	background:#fff;
+	color:#d6362a;
+	border:1px #d6362a solid;
+}
+#btn_getNewPwd{
+	margin-left:66px;
+	width:100px;
+}
+#btn_back{
+	width:50px;
+}

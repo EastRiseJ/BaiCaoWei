@@ -1,0 +1,136 @@
+*{
+	padding:0;
+	margin:0;
+}
+#shopCarContent{
+	width:100%;
+}
+#shopCarContent .shopCarContentC{
+	width:1211px;
+	margin:0 auto;
+}
+#shopCarContent .shopCarMainC{
+	width:1141px;
+	border: 2px solid #feefec;
+	margin: 0 auto;
+	padding:35px 25px 25px 25px;
+}
+#tab_shopCar{
+	width:1141px;
+	color:#646464;
+	font-size: 12px;
+	margin-top:18px;
+}
+#tab_shopCar thead tr{
+	height:38px;
+	width:1157px;
+	background: #f4f3f1;
+}
+#tab_shopCar  tr .t1{
+	width:148px;
+	text-align: left;
+	padding-left:10px;
+}
+#tab_shopCar  tr .t2{
+	width:378px;
+}
+#tab_shopCar  tr .t3{
+	width:136px;
+}
+#tab_shopCar  tr .t4{
+	width:184px;
+}
+#tab_shopCar  tr .t5{
+	width:159px;
+}
+#tab_shopCar  tr .t6{
+	width:126px;
+}
+#tab_shopCar .goodsPic{
+	width:82px;
+	height:82px;
+	border: 1px #e9e9e9 solid;
+	float:left
+}
+#tab_shopCar .goodsPic img{
+	width:82px;
+	height:82px;
+}
+#tab_shopCar tbody tr{
+	height:150px;
+	background: #fff;
+}
+#tab_shopCar tbody tr td{
+	text-align: center;
+	border-bottom: 2px solid #e4e4e4;
+}
+#tab_shopCar tbody .checkThis{
+	float:left;
+}
+#tab_shopCar tbody .goodsNum{
+	width:30px;
+	height: 30px;
+	text-align: center;
+	background: #fff;
+}
+#tab_shopCar tbody .numError{
+	color:#d6362a;
+	line-height: 20px;
+}
+#tab_shopCar tbody  button{
+	width:30px;
+	height:34px;
+	color:#999;
+	font-weight: bold;
+}
+#tab_shopCar tfoot tr{
+	height:76px;
+}
+#tab_shopCar tfoot .wholePriceMsg{
+	padding-right:30px;
+	float:right;
+}
+#tab_shopCar tfoot .clearShopCar{
+	color:#999999;
+}
+#tab_shopCar tfoot .wholePriceMsg .wholePrice{
+	color:#cc281e;
+	font-size:14px;
+	font-weight: bold;
+}
+#tab_shopCar tfoot .continueShopping{
+	width:110px;
+	height:30px;
+	line-height: 30px;
+	color:#cc281e;
+	text-align: center;
+	border:1px solid #e4e4e4;
+	margin-left:5px;
+	cursor: pointer;
+	float: left;
+}
+#tab_shopCar tfoot .goToPay{
+	width:110px;
+	height:30px;
+	line-height: 30px;
+	color:#fff;
+	text-align: center;
+	border:1px solid #cc281e;
+	background: #cc281e;
+	margin-left:5px;
+	cursor: pointer;
+	float: right;
+}
+#tab_shopCar tfoot .goToPayUnUser{
+	color:#000;
+	border:1px solid #000;
+	background: #ccc;
+}
+
+
+
+
+
+
+
+

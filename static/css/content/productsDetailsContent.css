@@ -1,0 +1,232 @@
+*{
+	padding:0;
+	margin:0;
+}
+/* ********* 产品详细导航部分（先隐藏） ****************** */
+#productsDet{
+	width:100%;
+}
+#productsDet .productsDetC{
+	width:1211px;
+	margin: 0 auto;
+}
+#productsDet .productsDetC .pDNavBar{
+	height: 52px;
+	padding-left:60px;
+	line-height: 52px;
+	font-size:12px;
+	color: #646464;
+	display: none;
+}
+#productsDet .productsDetC .pDContentMain{
+	width:1172px;
+	height:588px;
+	border: 1px #dddddd solid;
+	padding:14px;
+	/*position: relative;*/
+}
+.productsDetC .pDContentMain .pDContentMainLeftPic{
+	position: relative;
+}
+.pDContentMain .pDContentMainLeftPic .float_layer {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+	background: #fff;
+	filter: alpha(opacity: 30);
+	opacity: 0.3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.pDContentMain .big_pic {
+	position: absolute;
+	top: 200px;
+	left: 508px;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	border: 2px solid #CCC;
+	display: none;
+}
+
+.pDContentMain .big_pic img {
+	position: absolute;
+	top: -30px;
+	left: -80px;
+}
+.pDContentMain .pDContentMainLeftPic .mark {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	left: 0px;
+	top: 0px;
+	background: red;
+	filter: alpha(opacity: 0);
+	opacity: 0;
+}
+#productsDet .productsDetC .pDContentMainLeftPic{
+	width:420px;
+	height:420px;
+	border: 1px #dddddd solid;
+	float: left;
+}
+#productsDet .productsDetC .pDContentMainRight{
+	width:734px;
+	height:420px;
+	/*border: 1px #dddddd solid;*/
+	margin-left:13px;
+	float: left;
+}
+#goodsName{
+	font-size: 18px;
+}
+#productsDet .productsDetC .pDContentMainPrice{
+	width:722px;
+	height: 60px;
+	margin-top:20px;
+	background: #fafafa;
+	border-top: 1px #dddddd solid;
+	border-bottom:  1px #dddddd solid;
+	padding:18px 0 0  10px;
+}
+#productsDet .productsDetC .div_goodsOldPrice{
+	font-size: 12px;
+	color: #999999;
+}
+#productsDet .productsDetC .span_goodsOldPrice{
+	font-weight: bold;
+	text-decoration: line-through;
+}
+#productsDet .productsDetC .div_goodsNewPrice{
+	font-size: 12px;
+	color: #646464;
+	line-height: 40px;
+}
+#productsDet .productsDetC .span_goodsNewPrice{
+	font-size: 16px;
+	color: #e23629;
+	font-weight: bold;
+}
+#productsDet .productsDetC .pDContentMainNum{
+	width:722px;
+	height: 60px;
+	margin-top:12px;
+	border-top: 1px #dddddd solid;
+	border-bottom:  1px #dddddd solid;
+	padding-top:15px;
+	font-size: 10px;
+	color: #646464;
+}
+#productsDet .productsDetC .pDContentMainNum .numError{
+	color:#d6362a;
+	padding-left:30px;
+	line-height: 20px;
+}
+#goodsNum{
+	width:30px;
+	height: 30px;
+	text-align: center;
+	background: #fff;
+}
+.pDContentMainNum .numOpt button{
+	width:30px;
+	height:34px;
+	color:#999;
+	font-weight: bold;
+}
+#addInCar{
+	width:115px;
+	height: 35px;
+	background: #d6362a url(../../imgs/shopCarLogo.jpg) no-repeat 10px center;
+	border-radius: 20px;
+	border: 0;
+	font-size: 14px;
+	line-height: 35px;
+	padding-left:15px;
+	text-align: center;
+	outline: none;
+	color: #fff;
+}
+#productsDet .productsDetC .addToCar{
+	padding-top:25px;
+	height:55px;
+	border-bottom: 1px #dddddd solid;
+}
+#productsDet .productsDetC .addToCar button{
+	margin-left:30px;
+	cursor: pointer;
+}
+#addInCar:hover{
+	opacity: 0.8;
+	/*filter: alpha(opacity:80);*/
+}
+#collectGoods{
+	width:115px;
+	height: 35px;
+	background: #faf8fb url(../../imgs/collectLogo.png) no-repeat 10px center;
+	border-radius: 20px;
+	border: 0;
+	font-size: 14px;
+	line-height: 35px;
+	padding-left:15px;
+	text-align: center;
+	outline: none;
+	color: #666;
+	border: 1px #dddddd solid;
+}
+#collectGoods:hover{
+	border: 1px red solid;
+	opacity: 0.8;
+}
+#productsDet .productsDetC .payMethod{
+	font-size: 12px;
+	color: #999999;
+	padding-top:20px;
+}
+#productsDet .productsDetC .payMethod a{
+	display: inline-block;
+}
+#payByZFB{
+	width:26px;
+	height: 26px;
+	background: url(../../imgs/payMethod1.png) no-repeat;
+}
+#payByWeiXin{
+	width:28px;
+	height: 28px;
+	background: url(../../imgs/payMethod2.png) no-repeat;
+}
+
+/* ************ Go Top  ********************************** */
+#productsDet .productsDetC  .proDetCGoTop{
+	width:50px;
+	height:50px;
+	border:1px solid #000;
+	position:fixed;
+	right:20px;
+	bottom:50px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 14px;
+	line-height: 50px;
+	color:#fff;
+	background: #ccc;
+	display: none;
+	cursor: pointer;
+}
+#productsDet .productsDetC  .proDetCGoTop:hover{
+	background: orange;
+	font-size: 18px;
+	line-height: 25px;
+	color:red;
+}
+
+
+
+
+
+
+

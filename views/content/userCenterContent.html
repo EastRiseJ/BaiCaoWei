@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../static/css/content/userCenterContent.css" />
+	</head>
+
+	<body>
+		
+		<div id="userCenterContent">
+			<div class="userCenterContentC">
+				<!-- 个人中心左侧导航栏  -->
+				<div class="userCLeft">
+					<div class="userCLeftTop">
+						我的百草味
+					</div>
+					<div class="userCLeftBot">
+						<div class="userCItemsTitle uCT1">
+							我的账户
+						</div>
+						<div class="userCItems">账户安全</div>
+						<div class="userCItems userInfors">个人信息</div>
+						<div class="userCItems receiveAddrs">收货地址</div>
+						
+						<div class="userCItemsTitle uCT2">
+							我的交易
+						</div>
+						<div class="userCItems">我的订单</div>
+						<div class="userCItems">退货记录</div>
+						<div class="userCItems">到货通知</div>
+						<div class="userCItems">我的收藏</div>
+						
+						<div class="userCItemsTitle uCT3">
+							我的钱包
+						</div>
+						<div class="userCItems">我的余额</div>
+						<div class="userCItems">我的红包</div>
+						<div class="userCItems">我的豆子</div>
+						<div class="userCItems">我的优惠券</div>
+						
+						<div class="userCItemsTitle uCT4">
+							我的圈子
+						</div>
+						<div class="userCItems">消息中心</div>
+						<div class="userCItems">我的评论</div>
+						<div class="userCItems">我的推荐</div>
+						<div class="userCItems">我的留言</div>
+					</div>
+				</div>
+				<!-- 个人中心中间信息  -->
+				<div class="userCMid">
+					<div class="userCMidTop">
+						<!--<img src="../../static/imgs/userCMidTopImg.png"  />-->
+						<div class="userCMidTopTop">
+							<div class="userCMidTopTopL">
+								<img  src="../../static/imgs/userCenterBCWLogo.png" />
+							</div>
+							<div class="userCMidTopTopR">
+								<div class="account-safety">
+									账号安全：<span class="account-Lv">中</span> 
+									<img src="../../static/imgs/userCenter-midLv.png"/>&nbsp;
+									<a href="javascript:;" class="btn_promoteLv">提升 &gt;</a>
+								</div>
+								<div class="phone-email-isChecking">
+									<span  class="checkingPhone">手机: <span class="isChecking ">已验证</span></span>
+									<span  class="checkingEmail">邮箱: <span class="isChecking NoChecking">未验证</span></span>
+									<span class="gotoChecking">
+										<a href="javascript:;" class="btn_toChecking">去验证 &gt;</a>
+									</span>
+								</div>
+								<div class="userLvMsg">
+									<span class="userLv-NameBox">级别：<span class="userLv-Title">你的级别是 </span><span class="userLv-name">初级吃货</span></span>
+									&nbsp;<span class="shopMuchMoney-upLvBox">
+										您还差消费<span class="shopMonney">588</span>元达到
+										<span class="upToLvName">铜牌吃货</span>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="userCMidTopBot">
+							<div class="userCMidTopBotBox">
+								<p class="userCBoxTitle b1">余额</p>
+								<p class="userCBoxContent">￥0.00</p>
+							</div>
+							
+							<div class="userCMidTopBotBox">
+								<p class="userCBoxTitle b2">红包(0)</p>
+								<p class="userCBoxContent">￥0.00</p>
+							</div>
+							
+							<div class="userCMidTopBotBox">
+								<p class="userCBoxTitle b3">豆子</p>
+								<p class="userCBoxContent">0</p>
+							</div>
+							
+							<div class="userCMidTopBotBox">
+								<p class="userCBoxTitle b4">优惠券</p>
+								<p class="userCBoxContent">0</p>
+							</div>
+						</div>
+					</div>
+					<div class="userCMidCOrders">
+						<div class="uCMOrderBall"></div>  
+						<span class="uCMOrderTitle">玩豆子</span>
+						<span class="orderDetails">
+							待付款 <a href="javascript:;" class="orderNoPay">0</a> | 
+							已发货 <a href="javascript:;" class="orderSended">0</a> | 
+							已完成 <a href="javascript:;" class="orderComplete">0</a>
+						</span>
+						<a href="javascript:;" class="seeAllOrders">查看全部订单 ></a>
+					</div>
+					<div class="showOrdersBox">
+						<table id="tab-orderMsg" cellpadding="0" cellspacing="0">
+							<thead>
+								<tr>
+									<th>订单号</th>
+									<th>商品名称</th>
+									<th>总价格</th>
+									<th>收货地址</th>
+									<th>收货人姓名</th>
+									<th>是否已付款</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<span class="order-id">1</span>
+									</td>
+									
+									<td>
+										<span class="order-goodsNames">1</span>
+									</td>
+									<td>
+										<span class="order-price">1</span>
+									</td>
+									<td>
+										<span class="order-receiveAddress">1</span>
+									</td>
+									<td>
+										<span class="order-receivePeople">1</span>
+									</td>
+									
+									<td>
+										<span class="order-isPay">1</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--<div class="orderItems">
+							<span class="order-id">1</span>
+							<span class="order-receivePeople">1</span>
+							<span class="order-goodsNames">1</span>
+							<span class="order-receiveAddress">1</span>
+							<span class="order-price">1</span>
+							<span class="order-isPay">1</span>
+						</div>-->
+					</div>
+				</div>
+				
+				<!-- 个人中心右侧信息  -->
+				<div class="userCRight">
+					<div class="userCRightTop">
+						<div class="uCRTimg">
+							<img src="../../static/imgs/userCenterRTopImg.png" class="uCRTimg1" />
+						</div>
+						<div class="userCRightTopR">
+							<span class="nowTime">1234564</span><br />
+							<p class="userCRTRText">你好，<br /><span class="uCenterUserName">45646</span></p>
+							<button class="btn_userCheck">每日签到</button><br />
+							<!--<p class="userCRTRText">赚豆子变土豪</p>-->
+						</div>
+						<img src="../../static/imgs/userCenterRTopBot.png"  />
+					</div>
+					<div class="userCRightContent">
+						<div class="userCRCTop">
+							会员俱乐部
+						</div>
+						<div class="userCRCBot">
+							<div class="userCRCBotTitle">
+								<div class="uCMOrderBall"></div>  
+								<span class="uCMOrderTitle">玩豆子</span>
+								<a href="javascript:;" class="uCMOrderTitleR">更多 &gt;</span>
+							</div>
+							<div class="userCRCBotCentent">
+								<div class="userCRCBotItems">
+									<img src="../../static/imgs/userCenter-RBImg1.png"/>
+									<p>邮箱验证</p>
+								</div>
+								<div class="userCRCBotItems">
+									<img src="../../static/imgs/userCenter-RBImg2.png"/>
+									<p>完善信息</p>
+								</div>
+								<div class="userCRCBotItems">
+									<img src="../../static/imgs/userCenter-RBImg3.png"/>
+									<p>每日签到</p>
+								</div>
+								<div class="userCRCBotItems">
+									<img src="../../static/imgs/userCenter-RBImg4.png"/>
+									<p>兑换礼品</p>
+								</div>
+							</div>
+							
+							<div class="userCRCBotB">
+								<img src="../../static/imgs/userCRBottom.png"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../static/js/common/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="../../static/js/common/utility.js"></script>
+		<script type="text/javascript" src="../../static/js/content/userCenterContent.js"></script>
+	</body>
+
+</html>

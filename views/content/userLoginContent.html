@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../static/css/content/userLoginContent.css"/>
+	</head>
+
+	<body>
+		<div id="loginContent">
+			<div id="loginContentC">
+				<div id="lCCLogo">
+					<img src="../../static/imgs/LoginLogo.png"> 
+				</div>
+				<div id="loginForm">
+					<form action="#" method="post" name="form1" id="form1">
+						<p>手机/邮箱：</p>
+						<input type="text" id="userName" placeholder="请输入手机/邮箱" />
+						<span class="errorMsg error-userName">
+							*帐号不能为空
+						</span><br />
+						<p>密码：</p>
+						<input type="password" id="userpwd"  placeholder="请输入密码" />
+						<span class="errorMsg error-userpwd">
+							*密码不能为空
+						</span><br />
+						<button id="btn_login">立即登录</button><br />
+						<input type="checkbox" id="cb_remember" /><label for="cb_remember">两周内自动登陆</label><span class="cbRight"><a href="javascript:;" id="rememberPwd">忘记密码？</a></span><br />
+						<button id="btn_regist">注册成为百草味新味粉</button>
+					</form>
+				</div>
+			</div>
+			<div id="loginContentCS">
+				<div id="loginSucceed">
+					<h1>您已成功登录</h1>
+					<p>您的登录<span id="loginMethod">111</span>是: <span id="loginPhoneNum">111</span></p>
+					<button id="btn_goMyCenter">会员中心</button>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="../../static/js/common/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="../../static/js/common/utility.js"></script>
+		<script type="text/javascript" src="../../static/js/content/userLoginContent.js"></script>
+	</body>
+
+</html>

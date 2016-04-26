@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../static/css/content/productsDetailsContent.css"/>
+	</head>
+	<body>
+		<div id="productsDet">
+			<div class="productsDetC">
+				<div class="pDNavBar">
+					<a href="../MainHtml/index.html">首页</a>&gt;
+					<a href="javascript:;" class="lv2Nav"></a>&gt;
+					<a href="javascript:;" class="lv3Nav"></a>&gt;
+					<a href="javascript:;" class="goodsName"></a>
+				</div>
+				<div class="pDContentMain">
+					<!-- 下面这个div来储存Cookie获取的图片 -->
+					<div class="pDContentMainLeftPic">
+						<span class="mark"></span>
+						<span class="float_layer"></span>
+						<!--<img src="../../static/imgs/F101Items (6).jpg" width="420" height="420" />-->
+						<img src="" width="420" height="420" />
+					</div>
+					<div class="big_pic">
+						<!--<img src="../../static/imgs/F101Items (6).jpg" width="840" height="840" />-->
+					</div>
+					
+					<div class="pDContentMainRight">
+						<h1 id="goodsName">这里是产品名称（动态获取）</h1>
+						<div class="pDContentMainPrice">
+							<div class="div_goodsOldPrice">市 场 价  <span class="span_goodsOldPrice">￥现在价格两倍元</span></div>
+							<div class="div_goodsNewPrice">本 店 价  <span class="span_goodsNewPrice">￥现在价格</span></div>
+							<div class="pDContentMainNum">
+								数量：<span class="numOpt">
+										<button id="numSub" disabled="disabled">-</button><input type="text" value="1" id="goodsNum" /><button id="numAdd">+</button>
+										（库存999件）<br />
+										<!--  提示输入有误！ -->
+										<p class="numError"></p>
+									 </span>
+							</div>
+							<div class="addToCar">
+								<button id="addInCar">加入购物车</button>
+								<button id="collectGoods">收藏商品</button>
+							</div>
+							<div class="payMethod">
+								支付支持：<a href="javascript:;" id="payByZFB" ></a>
+								<a href="javascript:;" id="payByWeiXin" ></a>
+							</div>
+						</div>	
+					</div>
+				</div>
+				
+				<div class="productsDetCBottom">
+					<img src="../../static/imgs/goodsDetails.png" />
+				</div>
+				
+				<div class="proDetCGoTop">
+					TOP
+				</div>
+				
+			</div>
+			
+		</div>
+		<script type="text/javascript" src="../../static/js/common/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="../../static/js/common/utility.js"></script>
+		<script type="text/javascript" src="../../static/js/common/jquery.fly.min.js"></script>
+		<script type="text/javascript" src="../../static/js/common/requestAnimationFrame.js"></script>
+		<!--<script type="text/javascript" src="../../static/js/common/simpleZoom.js"></script>-->
+		<script type="text/javascript" src="../../static/js/content/productsDetailsContent.js"></script>
+	</body>
+</html>

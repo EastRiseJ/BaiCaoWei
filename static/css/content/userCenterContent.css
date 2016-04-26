@@ -1,0 +1,330 @@
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color:#e43629;
+	text-decoration: underline;
+}
+#userCenterContent{
+	width:100%;
+	margin-top:10px;
+}
+#userCenterContent .userCenterContentC{
+	width:1211px;
+	height:867px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+#userCenterContent .userCenterContentC .userCLeft{
+	width:216px;
+	height:658px;
+	font-size: 12px;
+	float: left;
+}
+#userCenterContent .userCenterContentC .userCLeftTop{
+	width:214px;
+	height:38px;
+	background: #d6362a;
+	border-radius: 19px;
+	line-height: 38px;
+	color:#fff;
+	text-align: center;
+	font-weight: bold;
+}
+#userCenterContent .userCenterContentC .userCLeftBot{
+	width:143px;
+	/*height:602px;*/
+	border: 2px solid #d6362a;
+	border-radius: 20px;
+	padding: 14px 30px 30px 39px;
+	color:#646464;
+}
+#userCenterContent .userCenterContentC .userCItemsTitle{
+	height:22px;
+	color:#9f4d50;
+	font-size: 16px;
+	line-height: 22px;
+	padding-left:30px;
+	font-weight: bold;
+	margin-top:20px;
+}
+#userCenterContent .userCenterContentC .uCT1{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 0;
+}
+#userCenterContent .userCenterContentC .uCT2{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 -22px;
+}
+#userCenterContent .userCenterContentC .uCT3{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 -44px;
+}
+#userCenterContent .userCenterContentC .uCT4{
+	background: url(../../imgs/userCenterLLogos.png) no-repeat 0 -66px;
+}
+#userCenterContent .userCenterContentC .userCItems{
+	line-height: 30px;
+	padding-left:30px;
+	cursor: pointer;
+	background: url(../../imgs/userCenterItemsRLogo.png) no-repeat right;
+}
+#userCenterContent .userCenterContentC .userCItems:hover{
+	border: 1px solid #9f4d50;
+	color:#9f4d50;
+}
+#userCenterContent .userCenterContentC .userCMid{
+	width:725px;
+	margin:0 10px;
+	float: left;
+}
+#userCenterContent .userCenterContentC .userCMidTop{
+	width:709px;
+	height: 246px;
+	padding:40px 0 16px 16px;
+	background: #fff1e9;
+	color: #646464;
+	font-size: 12px;
+}
+.userCenterContentC .userCMidTop .userCMidTopTopL{
+	width:116px;
+	height:116px;
+	float:left;
+}
+
+.userCenterContentC .userCMidTop .userCMidTopTopR{
+	width:552px;
+	margin-left:25px;
+	float:left;
+}
+.userCenterContentC .userCMidTop .account-Lv{
+	color:#ff9d38;
+	font-weight: bold;
+}
+.userCenterContentC .userCMidTop .btn_promoteLv{
+	color:#646464;
+}
+.userCenterContentC .userCMidTop .btn_promoteLv:hover{
+	color:#e43629;
+}
+.userCenterContentC .userCMidTop .phone-email-isChecking{
+	line-height: 28px;
+}
+.userCenterContentC .userCMidTop .checkingEmail{
+	margin-left:20px;
+}
+.userCenterContentC .userCMidTop .NoChecking{
+	color:#b0b0b0;
+}
+.userCenterContentC .userCMidTop  .btn_toChecking{
+	color:#d6362a;
+	margin-left:25px;
+}
+.userCenterContentC .userCMidTop .userLvMsg{
+	line-height: 28px;
+}
+.userCenterContentC .userCMidTop  .userLv-Title,
+.userCenterContentC .userCMidTop  .userLv-name,
+.userCenterContentC .userCMidTop  .shopMonney{
+	color:#d6362a;
+}
+.userCenterContentC .userCMidTop .upToLvName{
+	color:grey;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.userCenterContentC .userCMidTop .userCMidTopBot{
+	clear: both;
+	width:709px;
+	padding-top:30px;
+	
+}
+.userCenterContentC .userCMidTopBot .userCMidTopBotBox{
+	width:161px;
+	height:75px;
+	background: #fff;
+	margin-right:15px;
+	padding-top:25px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	cursor: pointer;
+}
+.userCenterContentC .userCMidTopBot .userCMidTopBotBox:hover{
+	width:159px;
+	height:73px;
+	border:1px solid #000;
+}
+.userCenterContentC .userCMidTopBot .userCBoxTitle{
+	padding-left:25px;
+}
+.userCenterContentC .userCMidTopBot .userCMidTopBotBox .b1{
+	background: url(../../imgs/userCenterJLT.png) no-repeat 50px 0;
+}
+.userCenterContentC .userCMidTopBot .userCMidTopBotBox .b2{
+	background: url(../../imgs/userCenterJLT.png) no-repeat 50px -20px;
+}
+.userCenterContentC .userCMidTopBot .userCMidTopBotBox .b3{
+	background: url(../../imgs/userCenterJLT.png) no-repeat 50px -40px;
+}
+.userCenterContentC .userCMidTopBot .userCMidTopBotBox .b4{
+	background: url(../../imgs/userCenterJLT.png) no-repeat 50px -60px;
+}
+.userCenterContentC .userCMidTopBot .userCBoxContent{
+	line-height: 32px;
+}
+
+/* ****************** 用户中心中间上部分 结束 **************** */
+
+
+/* ****************** 用户中心中间下部分 开始 **************** */
+#userCenterContent .userCenterContentC .userCMidCOrders{
+	width:725px;
+	margin-top:10px;
+}
+#userCenterContent .userCenterContentC .uCMOrderTitle{
+	font-weight: bold;
+	color:#a04d51;
+	margin-left:10px;
+	font-size: 14px;
+}
+
+#userCenterContent .userCenterContentC  .uCMOrderBall{
+	width:10px;
+	height:10px;
+	border-radius: 5px;
+	background: #d6362a;
+	float: left;
+}
+#userCenterContent .userCenterContentC .orderDetails{
+	color:#646464;
+	margin-left:30px ;
+}
+#userCenterContent .userCenterContentC .orderDetails a{
+	color:#e43629;
+}
+
+.seeAllOrders{
+	color:#646464;
+	float:right;
+}
+#userCenterContent .userCenterContentC .userCRight{
+	width:248px;
+	float: left;
+}
+
+#userCenterContent .userCenterContentC .userCRightTop{
+	width:234px;
+	height:169px;
+	padding:25px 0 0 10px;
+	border: 2px solid #d6362a;
+	border-radius: 19px;
+	color: #646464;
+}
+#userCenterContent .userCenterContentC .uCRTimg{
+	float: left;
+	height:114px;
+	width:77px;
+}
+#userCenterContent .userCenterContentC .userCRightTopR{
+	margin-left:10px;
+	float: left;
+}
+#userCenterContent .userCenterContentC .nowTime{
+	font-weight: bold;
+	line-height: 30px;
+}
+
+#userCenterContent .userCenterContentC .userCRTRText{
+	line-height: 20px;
+	height:50px;
+	font-weight: bold;
+	text-align: left;
+	color:#2e2e2e;
+	width:110px;
+	overflow:hidden;
+}
+/*.uCenterUserName{
+	float:left;
+}*/
+
+#userCenterContent .userCenterContentC  .userCRightContent{
+	margin-top:10px;
+}
+
+#userCenterContent .userCenterContentC .btn_userCheck{
+	width:130px;
+	height:34px;
+	font-weight: bold;
+	color:#2e2e2e;
+	background: #f4f3f1;
+	border-radius: 17px;
+	outline: none;
+}
+#userCenterContent .userCenterContentC .userCRCTop{
+	width:248px;
+	height:38px;
+	background: #d6362a;
+	border-radius: 19px;
+	line-height: 38px;
+	color:#fff;
+	text-align: center;
+	font-weight: bold;
+}
+#userCenterContent .userCenterContentC .userCRCBot{
+	width:224px;
+	height:530px;
+	border: 2px solid #d6362a;
+	border-radius: 19px;
+	padding:20px 10px 0 10px;
+}
+#userCenterContent .userCenterContentC .uCMOrderTitleR{
+	float:right;
+	color:#646464;
+}
+#userCenterContent .userCenterContentC .userCRCBotCentent{
+	margin-top:8px;
+}
+#userCenterContent .userCenterContentC .userCRCBotItems{
+	width:88px;
+	height:122px;
+	float:left;
+	margin-right: 18px;
+}
+#userCenterContent .userCenterContentC .userCRCBotItems p{
+	text-align: center;
+	line-height: 24px;
+}
+
+#userCenterContent .userCenterContentC .showOrdersBox{
+	border:1px solid #646464;
+	border-radius: 19px;
+	padding:20px;
+	padding-bottom:50px;
+	width:680px;
+	margin-top:10px;
+}
+#tab-orderMsg{
+	width:680px;
+}
+#tab-orderMsg thead th{
+	height:30px;
+	background: #ccc;
+}
+#tab-orderMsg tbody tr{
+}
+#tab-orderMsg tbody td{
+	height:30px;
+	text-align: center;
+	line-height:30px;
+	border:1px #ccc solid;
+}
+#tab-orderMsg tbody .btn_continuePay{
+	font-weight: bold;
+	
+}
+
+
+

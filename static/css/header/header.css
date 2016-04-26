@@ -1,0 +1,259 @@
+*{
+	padding:0;
+	margin:0;
+}
+html,body{
+	width:100%;
+}
+a{
+	text-decoration: none;
+}
+/* ********* 浮动窗 ******************* */
+#headerFixed{
+	width: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background: #fff;
+	border-bottom: 2px solid #efefef;
+	z-index: 20000;
+	display: none;
+}
+#headerFixed .headerFixedC{
+	width:1211px;
+	height: 56px;
+	margin: 0 auto;
+}
+#headerFixed .headerFixedC img{
+	float: left;
+}
+#headerFixed .headerFixedC .hCRight{
+	float:right;
+	padding-top:10px;
+}
+#headerFixed .headerFixedC  .hCSearch{
+	width:540px;
+	height:32px;
+	border: 2px solid #d6362a;
+	border-radius:20px ;
+	float: left;
+}
+#headerFixed .headerFixedC input{
+	outline: none;
+}
+#headerFixed .headerFixedC .tb_Hsearch{
+	width:420px;
+	height:28px;
+	border: 0;
+	padding-left:20px;
+	border-radius:20px;
+	float: left;
+}
+#headerFixed .headerFixedC .btn_Hsearch{
+	width:98px;
+	height:28px;
+	border: 0 ;
+	margin-top:2px;
+	border-radius:20px;
+	background:#d6362a ;
+	color:#fff;
+	font-weight: bold;
+}
+#headerFixed .headerFixedC .hCShopCar{
+	width:159px;
+	height:36px;
+	background: #d6362a url(../../imgs/shopCarLogo.jpg) no-repeat 20px 8px;
+	border-radius:20px ;
+	margin-left:17px;
+	float: left;
+	line-height: 36px;
+	text-align: center;
+	padding-left:10px;
+	color:#fff;
+	cursor: pointer;
+}
+#header .header-BCWLogo{
+	cursor: pointer;
+}
+
+
+/* **************  头部主要内容 ****************** */
+.btn_Hsearch{
+	cursor: pointer;
+}
+#headerTop  .hTopL a:hover,#headerTop  .hTopR a:hover{
+	color:red;
+}
+#headerTop  #hContact{
+	display: inline-block;
+	padding-left:20px;
+	position: relative;
+	width:80px;
+	color:#999999;
+	background: url(../../imgs/headerjtb.jpg) no-repeat right;
+}
+#headerTop  #hContact:hover{
+	background: #fff url(../../imgs/headerjtb.jpg) no-repeat right;
+	box-shadow: 0 0 10px #000000;
+}
+#headerTop  #hContact:hover #contactUsEWM{
+	display: block;
+}
+#contactUsEWM{
+	position:absolute;
+	top:30px;
+	left:0;
+	display: -none;
+	width:78px;
+	height:130px;
+	background: #fff;
+	padding:10px;
+	line-height: 20px;
+	border: 1px solid #f1f1f1;
+	text-align: center;
+	display: none;
+}
+#header,#headerTop,#headerContent{
+	width:100%;
+}
+#headerContent .bcw_headLogo{
+	cursor: pointer;
+}
+#header{
+	height:143px;
+}
+#headerTop {
+	background: #f4f3f1;
+}
+#header .headerTopC{
+	width:1211px;
+	height:30px;
+	margin: 0 auto;
+}
+#header  .hTopL{
+	color:#999999;
+	font-size:9px;
+	line-height: 30px;
+	padding-left:10px;
+	float: left;
+}
+#header  .hTopL a{
+	color:#999999;
+	font-size:9px;
+	line-height: 30px;
+}
+#header   .hTopLSearchPwd a,#headerTop   .hTopRPhone{
+	color:#d6362a;
+}
+#header  .hTopR{
+	color:#999999;
+	font-size:9px;
+	float: right;
+}
+#header  .hTopR a{
+	color:#999999;
+	line-height: 30px;
+}
+
+#header .headerTopC2{
+	width:1211px;
+	height:30px;
+	margin: 0 auto;
+	display: none;
+}
+/*#headerContent{
+	width:100%;
+	height:113px;
+	position: fixed;
+	top:30px;
+	left:0;
+	background: #fff;
+	z-index: 10000;
+}*/
+#headerContent .headerContentC{
+	width:1211px;
+	height:113px;
+	margin:0 auto;
+}
+#headerContent .headerContentC img{
+	float:left;
+}
+#headerContent .headerContentC .hCRight{
+	float:right;
+	padding-top:34px;
+	/*position: relative;*/
+}
+#headerContent .addShopCar-Prompt{
+	position: absolute;
+	/*width:150px;
+	height:30px;*/
+	width:0;
+	height:0;
+	/*overflow: hidden;*/
+	line-height: 30px;
+	text-align: center;
+	color:#d6362a;
+	right:120px;
+	top:30px;
+	opacity: 0;
+	border:1px #d6362a solid;
+	border-radius: 20px;
+	background: lightblue;
+}
+#headerContent .headerContentC .hCSearch{
+	width:540px;
+	height:32px;
+	border: 2px solid #d6362a;
+	border-radius:20px ;
+	float: left;
+}
+#headerContent .headerContentC input{
+	outline: none;
+}
+#headerContent .headerContentC .tb_Hsearch{
+	width:420px;
+	height:28px;
+	border: 0;
+	padding-left:20px;
+	border-radius:20px;
+	float: left;
+}
+#headerContent .headerContentC .btn_Hsearch{
+	width:98px;
+	height:28px;
+	border: 0 ;
+	margin-top:2px;
+	border-radius:20px;
+	background:#d6362a ;
+	color:#fff;
+	font-weight: bold;
+}
+#headerContent .headerContentC .hCShopCar{
+	width:159px;
+	height:36px;
+	background: #d6362a url(../../imgs/shopCarLogo.jpg) no-repeat 20px 8px;
+	border-radius:20px ;
+	margin-left:17px;
+	float: left;
+	line-height: 36px;
+	text-align: center;
+	padding-left:10px;
+	color:#fff;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
